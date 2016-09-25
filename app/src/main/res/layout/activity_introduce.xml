@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/introduce_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.runzii.cyou.common.view.CircleIndicator
+            android:id="@+id/indicator_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            app:ci_animator="@anim/indicator_animator"
+            app:ci_animator_reverse="@anim/indicator_animator_reverse"
+            app:ci_drawable="@drawable/black_radius_square"
+            app:ci_drawable_unselected="@drawable/white_radius"
+            app:ci_height="4dp"
+            app:ci_margin="6dp"
+            app:ci_width="10dp" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_introduce"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="?actionBarSize"
+        android:background="@drawable/btn_entersplash"
+        android:textSize="@dimen/text_size_huge"
+        android:textColor="@color/white"
+        android:text="开启精彩"
+        android:visibility="gone" />
+
+</RelativeLayout>

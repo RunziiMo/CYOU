@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mute"
+        android:icon="@drawable/em_icon_mute_normal"
+        android:orderInCategory="100"
+        android:title="@string/mute"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_handsfree"
+        android:icon="@drawable/em_icon_speaker_normal"
+        android:orderInCategory="100"
+        android:title="@string/Hands_free"
+        app:showAsAction="always" />
+</menu>

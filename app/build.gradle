@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.runzii.cyou"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        renderscriptTargetApi 23
+        renderscriptSupportModeEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile project(':easeui')
+    compile project(':sMSSDK')
+    compile project(':library')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.loopj.android:android-async-http:1.4.8'
+    compile 'com.flaviofaria:kenburnsview:1.0.6'
+    compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.afollestad.material-dialogs:core:0.8.0.1@aar'
+    compile 'com.github.rey5137:material:1.2.1'
+    compile('com.mikepenz:materialdrawer:4.3.1@aar') {
+        transitive = true
+    }
+    compile 'com.mikepenz:google-material-typeface:1.2.0.1@aar'
+
+    compile 'com.getbase:floatingactionbutton:1.10.0'
+
+    compile 'com.jakewharton:butterknife:6.1.0'
+}

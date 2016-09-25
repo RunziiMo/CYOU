@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_alpha_1">#99FFFFFF</color>
+    <color name="white_alpha_2">#66FFFFFF</color>
+    <color name="white_alpha_3">#33FFFFFF</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="black">#FF000000</color>
+    <color name="black_alpha_1">#99000000</color>
+    <color name="black_alpha_2">#66000000</color>
+    <color name="black_alpha_3">#33000000</color>
+
+    <color name="orange_800">#FFEF6C00</color>
+    <color name="orange_800_alpha">#66EF6C00</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+
+</resources>
